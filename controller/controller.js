@@ -1,6 +1,8 @@
 
 const {student} = require("../data/data.js");
 
+//Function eXPRESS
+
 const alldata = (req, res) => {
     try {
         res.status(200).json({
